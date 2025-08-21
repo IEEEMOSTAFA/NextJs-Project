@@ -15,7 +15,7 @@ export default function BlogListPage() {
       {blogs.map((blog) => (
         <div key={blog.id}>
           <h2>{blog.title}</h2>
-          {/* <Link href={`/blog/${blog.id}`}>details</Link> */}
+          <Link href={`/blog/${blog.id}`}>details</Link>
         </div>
       ))}
     </div>
